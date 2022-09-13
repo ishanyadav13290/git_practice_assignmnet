@@ -1,9 +1,9 @@
 // prime problem
 let X=15;
-for(let i=0;i<=15;i++){
-    if(i%X===0 && i%1===0){
-        true
+let flag='prime'
+for(let i=2;i<X;i++){
+    if(X%i==0){
+        flag='not prime'
     }
-} if(true){
-    console.log("prime")
-}
+} 
+console.log(flag)
